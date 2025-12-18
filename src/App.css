@@ -1,0 +1,70 @@
+.App{
+  font-family:Arial,Helvetica,sans-serif;
+  min-height: 100vh;
+  color:green;
+  width: 30%;
+  background-color: #007bff;
+}
+nav{
+  text-align:center;
+  background-color:pink;
+  margin: auto;
+  padding: 1rem 2rem;
+  height: 14%;
+  width: 200%;
+}
+body{
+  background-color: green;
+}
+nav ul{
+  display: flex;
+  gap: 2rem;
+  List-style: none;
+  padding: 100px;
+
+  
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.form-container {
+  background: white;
+  pading: 30px;
+  border-raduius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0.2);
+  width: 300px;
+  text-align: center;
+}
+.form-container h2 {
+  color: #333;
+  margin-bottom: 2opx;
+}
+input {
+  display: block;
+  margin: 10px 0;
+  border-radius:10px;
+  border: 1px solid #ccc;
+}
+button:hover {
+  background-color:#007bff;
+}
+.Link {
+  cursor: #007bff;
+}
+.Link:hover {
+  text-decoration: underline;
+}
+.id{
+  background-color: #333;
+  color: white;
+  width: 9%;
+  height: 15%;
+  border-radius: 7px;
+}
+
+
+
